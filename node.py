@@ -82,18 +82,24 @@ def new_connection_hander(conn, c_add):
         print "ERROR : newSocket"
     finally:
         conn.close()
-create_nodes_database()
-if(len(sys.argv) > 2):
-    connect_to(sys.argv[2], sys.argv[3], "CONNECTION::{}:{}".format(get_your_ip(), sys.argv[1]))
 
-try:
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_address = ('', int(sys.argv[1]))
-    sock.bind(server_address)
-    sock.listen(5)
-    while True:
-        connection, client_address = sock.accept()
-        t = threading.Thread(target=new_connection_hander, args=(connection, client_address,))
-        t.start()
-except:
-    print "error"
+
+if __name__ == "__main__":
+    create_nodes_database()
+    if(len(sys.argv) > 2 and len(sys.argv) % 2 == 0):
+        j = 2
+        while(j < len(sys.argv)):
+            connect_to(sys.argv[j], sys.argv[j + 1], "CONNECTION::{}:{}".format(get_your_ip(), sys.argv[1]))
+            j = j + 2
+
+    try:
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        server_address = ('', int(sys.argv[1]))
+        sock.bind(server_address)
+        sock.listen(5)
+        while True:
+            connection, client_address = sock.accept()
+            t = threading.Thread(target=new_connection_hander, args=(connection, client_address,))
+            t.start()
+    except:
+        print "error"
