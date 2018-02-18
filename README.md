@@ -1,23 +1,22 @@
         
 ```
-               ▒█████   ██▓███  ▓█████  ███▄    █  ▄████▄   ██░ ██  ▄▄▄     ▄▄▄█████▓
-              ▒██▒  ██▒▓██░  ██▒▓█   ▀  ██ ▀█   █ ▒██▀ ▀█  ▓██░ ██▒▒████▄   ▓  ██▒ ▓▒
-              ▒██░  ██▒▓██░ ██▓▒▒███   ▓██  ▀█ ██▒▒▓█    ▄ ▒██▀▀██░▒██  ▀█▄ ▒ ▓██░ ▒░
-              ▒██   ██░▒██▄█▓▒ ▒▒▓█  ▄ ▓██▒  ▐▌██▒▒▓▓▄ ▄██▒░▓█ ░██ ░██▄▄▄▄██░ ▓██▓ ░ 
-              ░ ████▓▒░▒██▒ ░  ░░▒████▒▒██░   ▓██░▒ ▓███▀ ░░▓█▒░██▓ ▓█   ▓██▒ ▒██▒ ░ 
-              ░ ▒░▒░▒░ ▒▓▒░ ░  ░░░ ▒░ ░░ ▒░   ▒ ▒ ░ ░▒ ▒  ░ ▒ ░░▒░▒ ▒▒   ▓▒█░ ▒ ░░   
-                ░ ▒ ▒░ ░▒ ░      ░ ░  ░░ ░░   ░ ▒░  ░  ▒    ▒ ░▒░ ░  ▒   ▒▒ ░   ░    
-              ░ ░ ░ ▒  ░░          ░      ░   ░ ░ ░         ░  ░░ ░  ░   ▒    ░      
-                  ░ ░              ░  ░         ░ ░ ░       ░  ░  ░      ░  ░        
-                                              ░ 
-                              Secure      Private      Intelligent                                 
+                     ▒█████   ██▓███  ▓█████  ███▄    █  ▄████▄   ██░ ██  ▄▄▄     ▄▄▄█████▓
+                    ▒██▒  ██▒▓██░  ██▒▓█   ▀  ██ ▀█   █ ▒██▀ ▀█  ▓██░ ██▒▒████▄   ▓  ██▒ ▓▒
+                    ▒██░  ██▒▓██░ ██▓▒▒███   ▓██  ▀█ ██▒▒▓█    ▄ ▒██▀▀██░▒██  ▀█▄ ▒ ▓██░ ▒░
+                    ▒██   ██░▒██▄█▓▒ ▒▒▓█  ▄ ▓██▒  ▐▌██▒▒▓▓▄ ▄██▒░▓█ ░██ ░██▄▄▄▄██░ ▓██▓ ░ 
+                    ░ ████▓▒░▒██▒ ░  ░░▒████▒▒██░   ▓██░▒ ▓███▀ ░░▓█▒░██▓ ▓█   ▓██▒ ▒██▒ ░ 
+                    ░ ▒░▒░▒░ ▒▓▒░ ░  ░░░ ▒░ ░░ ▒░   ▒ ▒ ░ ░▒ ▒  ░ ▒ ░░▒░▒ ▒▒   ▓▒█░ ▒ ░░   
+                      ░ ▒ ▒░ ░▒ ░      ░ ░  ░░ ░░   ░ ▒░  ░  ▒    ▒ ░▒░ ░  ▒   ▒▒ ░   ░    
+                    ░ ░ ░ ▒  ░░          ░      ░   ░ ░ ░         ░  ░░ ░  ░   ▒    ░      
+                        ░ ░              ░  ░         ░ ░ ░       ░  ░  ░      ░  ░        
+                                                    ░ 
+                                    Secure      Private      Intelligent                                 
 ```
 ***version 1.5.0***
 
 What is OPENchat
 ---
-
-openCHAT is a platform which provides a stable and secure point to point connection between two terminals. It is proposed to be run on Terminology <https://www.enlightenment.org/about-terminology> for better support. SSL has been used in order to implement secure tcp sockets.
+OpenCHAT is a platform which provides a stable and secure point to point connection between two terminals. It is proposed to be run on Terminology <https://www.enlightenment.org/about-terminology> for better support. SSL has been used in order to implement secure tcp sockets.
 
 ---
 
