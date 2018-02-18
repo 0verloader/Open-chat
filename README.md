@@ -1,33 +1,22 @@
         
 ```
-      
-         /////////////|   //////////////|   /////////////|   /////\   /////|               
-        |           |/|  |    ____    |/|  |           |/|  |    \/\ |   |/|     
-        |   _____   |/|  |   |/|  |   |/|  |     ______|/   |     \/\|   |/|    
-        |  |/|   |  |/|  |   |////|   |/|  |    |//////|    |      \/|   |/|        
-        |  |/|   |  |/|  |    ________|/   |         |/|    |       \|   |/|    
-        |  |/|   |  |/|  |   |/|           |     ____|/     |   |\       |/|  
-        |  |/////|  |/|  |   |/|           |    |////////|  |   |/\      |/| 
-        |           |/|  |   |/|           |           |/|  |   |/|\     |/| 
-        |___________|/   |___|/            |___________|/   |___|/  \____|/  
-
-                                                             ////|
-                                                            |  |/|                          ////|
-                                                            |  |/|          /////////\     |  |/|
-                                                 ////////|  |  |///////\    \_____  \/\   _|  |//|
-                                                /  _____|/  |   ____  \/\    /////\  |/| |_    _|/
-                                               |  |         |  |/|  |  |/|  /  _ \|  |/|   |  |/|
-                                               |  |///////| |  |/|  |  |/| |  |/|    |/\   |  |/\
-                                                \_______|/  |__|/   |__|/   \_____/\__\/    \__\/
-
-
+         ▒█████   ██▓███  ▓█████  ███▄    █  ▄████▄   ██░ ██  ▄▄▄     ▄▄▄█████▓
+        ▒██▒  ██▒▓██░  ██▒▓█   ▀  ██ ▀█   █ ▒██▀ ▀█  ▓██░ ██▒▒████▄   ▓  ██▒ ▓▒
+        ▒██░  ██▒▓██░ ██▓▒▒███   ▓██  ▀█ ██▒▒▓█    ▄ ▒██▀▀██░▒██  ▀█▄ ▒ ▓██░ ▒░
+        ▒██   ██░▒██▄█▓▒ ▒▒▓█  ▄ ▓██▒  ▐▌██▒▒▓▓▄ ▄██▒░▓█ ░██ ░██▄▄▄▄██░ ▓██▓ ░ 
+        ░ ████▓▒░▒██▒ ░  ░░▒████▒▒██░   ▓██░▒ ▓███▀ ░░▓█▒░██▓ ▓█   ▓██▒ ▒██▒ ░ 
+        ░ ▒░▒░▒░ ▒▓▒░ ░  ░░░ ▒░ ░░ ▒░   ▒ ▒ ░ ░▒ ▒  ░ ▒ ░░▒░▒ ▒▒   ▓▒█░ ▒ ░░   
+          ░ ▒ ▒░ ░▒ ░      ░ ░  ░░ ░░   ░ ▒░  ░  ▒    ▒ ░▒░ ░  ▒   ▒▒ ░   ░    
+        ░ ░ ░ ▒  ░░          ░      ░   ░ ░ ░         ░  ░░ ░  ░   ▒    ░      
+            ░ ░              ░  ░         ░ ░ ░       ░  ░  ░      ░  ░        
+                                            ░                                  
 ```
-***version 1.0.0***
+***version 1.5.0***
 
 What is OPENchat
 ---
 
-openCHAT is a platform which privedes a stable and secure point to point connection between two terminals. It is proposed to be run on Terminology <https://www.enlightenment.org/about-terminology> for better support. SSL has been used in order to implement secure tcp sockets.
+openCHAT is a platform which provides a stable and secure point to point connection between two terminals. It is proposed to be run on Terminology <https://www.enlightenment.org/about-terminology> for better support. SSL has been used in order to implement secure tcp sockets.
 
 ---
 
@@ -42,7 +31,7 @@ Prerequisites
 
 How to run OPENchat
 ---
-- openssl req -new -x509 -nodes -out cert.pem -keyout key.pem
+- openssl req -new -x509 -nodes -out cert.pem -keyout key.pem (just once for each client to create key and cert)
 - python client.py "port"
 ---
 
