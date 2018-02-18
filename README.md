@@ -1,15 +1,16 @@
         
 ```
-         ▒█████   ██▓███  ▓█████  ███▄    █  ▄████▄   ██░ ██  ▄▄▄     ▄▄▄█████▓
-        ▒██▒  ██▒▓██░  ██▒▓█   ▀  ██ ▀█   █ ▒██▀ ▀█  ▓██░ ██▒▒████▄   ▓  ██▒ ▓▒
-        ▒██░  ██▒▓██░ ██▓▒▒███   ▓██  ▀█ ██▒▒▓█    ▄ ▒██▀▀██░▒██  ▀█▄ ▒ ▓██░ ▒░
-        ▒██   ██░▒██▄█▓▒ ▒▒▓█  ▄ ▓██▒  ▐▌██▒▒▓▓▄ ▄██▒░▓█ ░██ ░██▄▄▄▄██░ ▓██▓ ░ 
-        ░ ████▓▒░▒██▒ ░  ░░▒████▒▒██░   ▓██░▒ ▓███▀ ░░▓█▒░██▓ ▓█   ▓██▒ ▒██▒ ░ 
-        ░ ▒░▒░▒░ ▒▓▒░ ░  ░░░ ▒░ ░░ ▒░   ▒ ▒ ░ ░▒ ▒  ░ ▒ ░░▒░▒ ▒▒   ▓▒█░ ▒ ░░   
-          ░ ▒ ▒░ ░▒ ░      ░ ░  ░░ ░░   ░ ▒░  ░  ▒    ▒ ░▒░ ░  ▒   ▒▒ ░   ░    
-        ░ ░ ░ ▒  ░░          ░      ░   ░ ░ ░         ░  ░░ ░  ░   ▒    ░      
-            ░ ░              ░  ░         ░ ░ ░       ░  ░  ░      ░  ░        
-                                            ░                                  
+             ▒█████   ██▓███  ▓█████  ███▄    █  ▄████▄   ██░ ██  ▄▄▄     ▄▄▄█████▓
+            ▒██▒  ██▒▓██░  ██▒▓█   ▀  ██ ▀█   █ ▒██▀ ▀█  ▓██░ ██▒▒████▄   ▓  ██▒ ▓▒
+            ▒██░  ██▒▓██░ ██▓▒▒███   ▓██  ▀█ ██▒▒▓█    ▄ ▒██▀▀██░▒██  ▀█▄ ▒ ▓██░ ▒░
+            ▒██   ██░▒██▄█▓▒ ▒▒▓█  ▄ ▓██▒  ▐▌██▒▒▓▓▄ ▄██▒░▓█ ░██ ░██▄▄▄▄██░ ▓██▓ ░ 
+            ░ ████▓▒░▒██▒ ░  ░░▒████▒▒██░   ▓██░▒ ▓███▀ ░░▓█▒░██▓ ▓█   ▓██▒ ▒██▒ ░ 
+            ░ ▒░▒░▒░ ▒▓▒░ ░  ░░░ ▒░ ░░ ▒░   ▒ ▒ ░ ░▒ ▒  ░ ▒ ░░▒░▒ ▒▒   ▓▒█░ ▒ ░░   
+              ░ ▒ ▒░ ░▒ ░      ░ ░  ░░ ░░   ░ ▒░  ░  ▒    ▒ ░▒░ ░  ▒   ▒▒ ░   ░    
+            ░ ░ ░ ▒  ░░          ░      ░   ░ ░ ░         ░  ░░ ░  ░   ▒    ░      
+                ░ ░              ░  ░         ░ ░ ░       ░  ░  ░      ░  ░        
+                                            ░ 
+                            Secure      Private      Intelligent                                 
 ```
 ***version 1.5.0***
 
@@ -25,28 +26,24 @@ Prerequisites
 ---
 - Python 2.7
 - OpenSSL
-
 ---
 
 
 How to run OPENchat
 ---
 - openssl req -new -x509 -nodes -out cert.pem -keyout key.pem (just once for each client to create key and cert)
-- python client.py "port"
+- python client.py (port)
 ---
 
 OPENchat commands
 ---
-
 - send::(ip):(port)::(M for Message or F for file)  : send message or file
 - inbox::list  : show inbox
 - inbox::(ip):(port)  : show inbox from a specific (ip):(port)
-
 ---
 
 Contributors
 ---
-
 - 0verloader <https://github.com/0verloader>
 
   Please report bugs to <konstantinosarakadakis@gmail.com>
