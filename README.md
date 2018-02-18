@@ -16,7 +16,7 @@
 
 What is OPENchat
 ---
-OpenCHAT is a platform which provides a stable and secure point to point connection between two terminals. It is proposed to be run on Terminology <https://www.enlightenment.org/about-terminology> for better support. SSL has been used in order to implement secure tcp sockets.
+OpenCHAT is a platform which provides a stable and secure point to point connection between two terminals. It is highly advised openCHAT to be run on Terminology <https://www.enlightenment.org/about-terminology> for better support. SSL has been used in order to implement secure tcp sockets.
 
 ---
 
@@ -36,9 +36,18 @@ How to run OPENchat
 
 OPENchat commands
 ---
-- send::(ip):(port)::(M for Message or F for file)  : send message or file
-- inbox::list  : show inbox
-- inbox::(ip):(port)  : show inbox from a specific (ip):(port)
+send message or file
+```
+send::(ip):(port)::(M for Message or F for file)
+ ```
+show inbox
+```
+inbox::list
+```
+show inbox from a specific (ip):(port)
+```
+inbox::(ip):(port)
+```
 ---
 
 Contributors
