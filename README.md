@@ -30,8 +30,13 @@ Prerequisites
 
 How to run OPENchat
 ---
-- openssl req -new -x509 -nodes -out cert.pem -keyout key.pem (just once for each client to create key and cert)
-- python client.py (port)
+
+```
+openssl req -new -x509 -nodes -out cert.pem -keyout key.pem (just once for each client to create key and cert)
+```
+```
+python client.py (port)
+```
 ---
 
 OPENchat commands
